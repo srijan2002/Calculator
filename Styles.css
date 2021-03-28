@@ -1,0 +1,127 @@
+body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+     justify-content: center;
+     background-color:midnightblue;
+}
+.t{
+    text-align: center;
+    justify-content: center;
+    width: 40vw;
+    align-items: center;
+    padding-top: 5px;
+    color: darkred;
+    font-size: x-large
+}
+.head{
+    
+    height: 4vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    padding-left: 170px;    
+    padding-bottom: 9px;
+    background-color: blue;
+    margin-left: 240px;
+    border-radius: 15px;
+     
+}
+.head:hover{
+    transform: scale(1.01);
+    box-shadow: 2px 2px 30px yellow;
+    transition-duration: 0.65s;
+}
+.calc{
+    height: 55%;
+    width: 25%;
+    background-color: dodgerblue;
+    margin-top: 50px;
+    margin-left: 75px;
+    border-radius: 8px;
+   padding-left: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 5px;
+   display: flexbox;   
+   flex-wrap: wrap;
+}
+.calc:hover{
+    box-shadow: 2px 2px 30px yellow;
+    transition-duration: 0.65s;
+}
+.but{
+    height: 10vh;
+    width: 8vw;
+    background-color: lightblue;
+     display: flexbox;
+     font-size: larger;
+     font-style: oblique;
+     border-radius: 10px;
+     flex-wrap: wrap;
+     color: red;
+}
+.func{
+    height: 55%;
+    width: 25%;
+    background-color:dodgerblue;
+    margin-top: 50px;
+    margin-left: 80px;
+    border-radius: 8px;
+   padding-left: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 5px;
+   display: flexbox;   
+   flex-wrap: wrap;
+   
+}
+.func:hover{
+    box-shadow: 2px 2px 30px yellow;
+    transition-duration: 0.65s;
+}
+.full{
+    height: 58%;
+    display: flex;
+}
+.res{
+    height: 55%;
+    width: 25%;
+    background-color: dodgerblue;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 8px;
+   padding-left: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 5px;
+   display: flexbox;   
+   flex-wrap: wrap;
+}
+.res:hover{
+    box-shadow: 2px 2px 30px yellow;
+    transition-duration: 0.65s;
+}
+.inp{
+height: 30px;
+width: 200px;
+margin-right: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
+justify-content: center;
+text-align: center;
+font-size: larger;
+margin-left: 10px;
+border-radius: 10px;
+background-color: lightblue;
+color: crimson;
+
+}
+.la{
+    font-size: x-large;
+    font-style: oblique;
+    color: darkslateblue;
+
+}
+
+  

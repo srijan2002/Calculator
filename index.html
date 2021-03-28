@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ONLINE CALCULATOR</title>
+    <script src="https://unpkg.com/vue"></script>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <div class="head">
+        <h3 class="t">ONLINE CALCULATOR</h3>
+    </div>
+    <div class="full" id="vue-div">
+    <div class="calc">
+        <button class="but" v-on:click="n1(1)">1</button>
+        <button class="but" v-on:click="n1(2)">2</button>
+        <button class="but" v-on:click="n1(3)">3</button>
+        <button class="but" v-on:click="n1(4)">4</button>
+        <button class="but" v-on:click="n1(5)">5</button>
+        <button class="but" v-on:click="n1(6)">6</button>
+        <button class="but" v-on:click="n1(7)">7</button>
+        <button class="but" v-on:click="n1(8)">8</button>
+        <button class="but" v-on:click="n1(9)">9</button>
+        <button class="but" v-on:click="n1(0)">0</button>
+        <button class="but" v-on:click="dot">.</button>
+        <button class="but" v-on:click="back">BACK</button>
+    </div>
+    <div class="func">
+        <button class="but" v-on:click="add">+</button>
+        <button class="but" v-on:click="subtract">-</button>
+        <button class="but" v-on:click="multiply">*</button>
+        <button class="but" v-on:click="divide">/</button>
+        <button class="but" v-on:click="power">^</button>
+        <button class="but" v-on:click="modulus">%</button>
+        <button class="but" v-on:click="log">log</button>
+        <button class="but" v-on:click="min">min</button>
+        <button class="but" v-on:click="max">max</button>
+        <button class="but" v-on:click="root">Nth root</button>
+        <button class="but" v-on:click="xor">XOR</button>
+        <button class="but" v-on:click="xand">XAND</button>
+    </div>
+    <div class="res">
+        <input   class="inp" id="in1" v-model="IN1" v-on:click="i1">
+        <label class="la" >  Input 1</label>
+        <input class="inp" id="in2" v-model="IN2" v-on:click="i2">
+        <label class="la">  Input 2</label>
+        <input  class="inp" id="ress" v-bind:value="RES">
+        <label class="la"> Result</label>   
+    </div>
+    </div>
+<script src="Js.js"></script>
+</body>
+
+</html>
