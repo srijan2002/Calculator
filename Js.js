@@ -10,7 +10,7 @@ new Vue({
         b:0
     },
     methods:{
-        add1:function(){
+        add:function(){
             if(this.IN1!=""&&this.IN2!="")
              this.RES= parseFloat(this.IN1)+parseFloat(this.IN2)
         },
