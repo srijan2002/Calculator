@@ -78,11 +78,11 @@ body{
 }
 .func:hover{
     box-shadow: 2px 2px 30px yellow;
-    transition-duration: 0.65s;
 }
 .full{
     height: 58%;
     display: flex;
+    animation: tr-bag 4s linear infinite;
 }
 .res{
     height: 55%;
