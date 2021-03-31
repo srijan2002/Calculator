@@ -3,16 +3,60 @@ body{
     width: 100%;
     overflow: hidden;
      justify-content: center;
-     background-color:midnightblue;
+    background-image: radial-gradient(midnightblue, cyan);
+     font-family: 'Architects Daughter', cursive;
 }
 .t{
     text-align: center;
     justify-content: center;
     width: 40vw;
     align-items: center;
-    padding-top: 5px;
-    color: darkred;
-    font-size: x-large
+    padding-top: 8px;
+    color: white;
+    font-size: xx-large;
+    text-shadow: 
+        0.1em 0 0 rgba(255,0,0),
+        -0.1em -0.05em 0 rgba(0,255,0),
+        0.05em 0.05em 0 rgba(0,0,255);
+        animation: t 450ms infinite;
+
+}
+@keyframes t{
+    0%{
+        text-shadow: 
+        0.1em 0 0 rgba(255,0,0),
+        -0.1em -0.05em 0 rgba(0,255,0),
+        0.05em 0.05em 0 rgba(0,0,255);
+
+    }
+    25%{
+        text-shadow: 
+        -0.1em 0.05em 0 rgba(255,0,0),
+        -0.1em 0.05em 0 rgba(0,255,0),
+        0.05em -0.05em 0 rgba(0,0,255);
+
+    }
+    50%{
+        text-shadow: 
+        0.1em -0.05em 0 rgba(255,0,0),
+        0.1em -0.05em 0 rgba(0,255,0),
+        -0.05em 0.05em 0 rgba(0,0,255);
+
+    }
+    75%{
+        text-shadow: 
+        -0.05em -0.05em 0 rgba(255,0,0),
+        0.05em 0.05em 0 rgba(0,255,0),
+        0.1em -0.05em 0 rgba(0,0,255);
+
+    }
+    100%{
+        text-shadow: 
+        -0.1em -0.05em 0 rgba(255,0,0),
+        0.1em 0.05em 0 rgba(0,255,0),
+        -0.05em -0.05em 0 rgba(0,0,255);
+
+    }
 }
 .head{
     
@@ -22,9 +66,9 @@ body{
     align-items: center;
     padding-left: 170px;    
     padding-bottom: 9px;
-    background-color: blue;
+    background-image:radial-gradient(darkblue,cyan);
     margin-left: 240px;
-    border-radius: 15px;
+    border-radius: 20px;
      
 }
 .head:hover{
@@ -35,10 +79,10 @@ body{
 .calc{
     height: 55%;
     width: 25%;
-    background-color: dodgerblue;
+    background-image: radial-gradient(dodgerblue);
     margin-top: 50px;
     margin-left: 75px;
-    border-radius: 8px;
+    border-radius: 12px;
    padding-left: 10px;
    padding-top: 10px;
    padding-bottom: 10px;
@@ -49,25 +93,28 @@ body{
 .calc:hover{
     box-shadow: 2px 2px 30px yellow;
     transition-duration: 0.65s;
+    transform: scale(1.005);
 }
 .but{
     height: 10vh;
     width: 8vw;
     background-color: lightblue;
      display: flexbox;
-     font-size: larger;
+     font-size: x-large;
      font-style: oblique;
-     border-radius: 10px;
+     border-radius: 13px;
      flex-wrap: wrap;
      color: red;
+     animation: glitch-skew 1s infinite linear alternate-reverse;
+     position: relative;
 }
 .func{
     height: 55%;
     width: 25%;
-    background-color:dodgerblue;
+    background-image: radial-gradient(dodgerblue);
     margin-top: 50px;
     margin-left: 80px;
-    border-radius: 8px;
+    border-radius: 13px;
    padding-left: 10px;
    padding-top: 10px;
    padding-bottom: 10px;
@@ -78,6 +125,8 @@ body{
 }
 .func:hover{
     box-shadow: 2px 2px 30px yellow;
+    transition-duration: 0.65s;
+    transform: scale(1.005);
 }
 .full{
     height: 58%;
@@ -87,10 +136,10 @@ body{
 .res{
     height: 55%;
     width: 25%;
-    background-color: dodgerblue;
+    background-image: radial-gradient(dodgerblue);
     margin-top: 50px;
     margin-left: 50px;
-    border-radius: 8px;
+    border-radius: 12px;
    padding-left: 10px;
    padding-top: 10px;
    padding-bottom: 10px;
@@ -101,6 +150,7 @@ body{
 .res:hover{
     box-shadow: 2px 2px 30px yellow;
     transition-duration: 0.65s;
+    transform: scale(1.005);
 }
 .inp{
 height: 30px;
@@ -118,9 +168,10 @@ color: crimson;
 
 }
 .la{
-    font-size: x-large;
+    font-size: xx-large;
     font-style: oblique;
-    color: darkslateblue;
+    color: orangered;
+
 
 }
 
